@@ -35,7 +35,7 @@ python manage.py runserver
 ## APIs in Action
 **`/populate`**: First thing's first, let's populate the database.(Note that this page has no rendering effect as its only purpose is to populate the database, it also takes some time to get ALL the records as the API contains a very large number of records)
 
-**`/population/`**: Now that the database is populated, we can go and check a list of the countries populations at different years. (Limited to 50 per page)
+**`/population/`**: Now that the database is populated, we can go and check a list of the countries populations at different years.(Limited to 50 per page) If a user enters an unidentifed country code, it returns a 404 Detail not found.
 ![image](https://user-images.githubusercontent.com/49989718/209130943-d9e0774e-e50c-4b66-8746-61d74b574dd6.png)
 ![image](https://user-images.githubusercontent.com/49989718/209130899-5eb3d83d-dd26-4fb2-ba74-698825a79ab6.png)
 
