@@ -17,7 +17,7 @@ This application is built with python, using Django as a framework to ease the p
 
 ### Extras
 
-* DRF (Django rest framework) was used to help serialize and view the API results easily in the browser without the need to use Postman, and to help with pagination as well. (Though it is recommended)
+* DRF (Django rest framework) was used to help serialize and view the API results easily in the browser without the need to use Postman,(Though it is recommended) and to help with pagination as well.
 * Black was used to help format the files accordingly with [**PEP8 style guidelines**](https://www.python.org/dev/peps/pep-0008/).
 
 ### Starting the application
