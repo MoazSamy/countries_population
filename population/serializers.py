@@ -5,4 +5,4 @@ from .models import Population
 class PopulationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Population
-        fields = {"country", "year", "population"}
+        fields = "__all__"
